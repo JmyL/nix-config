@@ -68,23 +68,23 @@ in
     sudo.wheelNeedsPassword = false;
   };
 
-  fonts.packages = with pkgs; [
-    carlito # NixOS
-    vegur # NixOS
-    source-code-pro
-    jetbrains-mono
-    font-awesome # Icons
-    corefonts # MS
-    noto-fonts # Google + Unicode
-    noto-fonts-cjk-sans
-    noto-fonts-cjk-serif
-    noto-fonts-emoji
-    (nerdfonts.override {
-      fonts = [
-        "FiraCode"
-      ];
-    })
-  ];
+  # fonts.packages = with pkgs; [
+  #   carlito # NixOS
+  #   vegur # NixOS
+  #   source-code-pro
+  #   jetbrains-mono
+  #   font-awesome # Icons
+  #   corefonts # MS
+  #   noto-fonts # Google + Unicode
+  #   noto-fonts-cjk-sans
+  #   noto-fonts-cjk-serif
+  #   noto-fonts-emoji
+  #   (nerdfonts.override {
+  #     fonts = [
+  #       "FiraCode"
+  #     ];
+  #   })
+  # ];
 
   environment = {
     variables = {
